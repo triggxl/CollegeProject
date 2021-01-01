@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.gradient{
+  background-image: linear-gradient(#6df268, white);
+  height: 100%;
+}
+.containerAbout{
+  background-color: #FF0000;
+}
+
+div.scrollmenu {
+  background-color: #FFFFFF;
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+  align-content: center;
+  scroll-behavior: smooth;
+}
+
+.quotesSideColumnLeft{
+  float: left;
+  width: 20%;
+  padding: 15px;
+  vertical-align: 100%;
+  background-repeat: repeat-y;
+}
+
+.quotesSideColumnRight{
+  float: right;
+  width: 20%;
+  padding: 15px;
+  vertical-align: 100%;
+  background-repeat: repeat-y;
+}
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* Style the header */
+.header {
+  padding: 40px;
+  font-size: 32px;
+  text-align: center;
+  border-top-width: 35px;
+  border-top-style: solid;
+}
+
+.h2{
+  font-family: "Bookman Header", sans-serif;
+}
+.h3{
+  font-family: sans-serif;
+}
+.h4{
+  border-style: dotted;
+}
+.coffee{
+  margin: auto;
+  width: 50%;
+
+}
+.image{
+  width: 99%;
+  margin:auto;
+}
+.wstitle{
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.sideColumnTitle {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  line-height: 35px;
+  margin-bottom: 35px;
+}
+
+.three-d{
+  margin: auto;
+  width: 50%;
+}
+
+.socialmedia{
+  width: 50%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.Suggestion{
+  width: 50%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.row{
+  width: 100%;
+}
+
+.singleRow{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.singleRowAbout{
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.mainColumn {
+  float: left;
+  width: 60%;
+  padding: 55px;
+  text-align: center;
+}
+
+.quotesMainColumn{
+  float: left;
+  width: 60%;
+  padding: 55px;
+  text-align: center;
+  border-style: solid;
+}
+.sideColumn {
+  float: left;
+  width: 20%;
+  margin: auto;
+  padding: 20px;
+  border-style: solid;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.borderQuotes p{
+  border-bottom: solid;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+  .sideColumn {
+    width: 100%;
+  }
+  .mainColumn {
+    width: 100%;
+  }
+.footer{
+  text-align: right;
+}
+
+* {
+  box-sizing: border-box;
+  }
+@media screen and (max-width: 480px) {
+.burningTexture, .entrepreneur, .emiliaClarke {width: 200px;}
+.psychCentral, .cognitiveIntelligence, .darkSideofEdu {width: 150px;}
+.coffee, .three-d {width: 150px;}
+.column {float: left;}
+
+}
+}
+/* Style inputs for Questions/Comment Box
+    STILL NEED TO LINK TO PERSONAL EMAIL OR FACEBOOK MESSENGER
+    */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, .singleRowColumn, .mainColumn, .saddleMountain, input[type=submit], .collectiveIntelligence .entrepreneur, .emiliaClarke, .att, .darkSideofEdu, iframe {width: 200px;} {
+    width: 100%;
+    margin-top: 0;
+  }
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: right;
+}
+
+@media screen and (min-width: 800px) {
+  .coffee, .three-d, .entrepreneur, .emiliaClarke, .burningTexture, .darkSideofEdu, .cognitiveIntelligence, iframe {width: 400px;}
+  .saddleMountain {width: 300px;}
+  .psychCentral {width: 250px}
+  .globalGoals, .DFD, .sportAndDev, .idleJ.webp {width: 100px;}
+
+}
+
+.top{
+  float: right;
+}
+
